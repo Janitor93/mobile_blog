@@ -31,9 +31,64 @@ body {
   box-shadow: 0 0 15px 5px #000;
   font-family: 'Open Sans Condensed', sans-serif;
 }
+.image {
+  width: 272px;
+  height: 316px;
+  background: url(../img/main.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  margin: 0;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 120px 20px;
+}
+.image h4 {
+  margin: 0;
+}
+.content {
+  width: 312px;
+  float: left;
+  margin: 0;
+}
+.main {
+  height: 556px;
+  width: 9999px;
+  /*display: inline-block;*/
+  margin: 0;
+}
+.describe {
+  height: 540px !important;
+  overflow: scroll;
+  margin: 0;
+}
+.describe img {
+  width: 282px;
+}
+/*.describe1 {
+  color: #000;
+}
+.content {
+  display: inline-block;
+  float: left;
+  width: 312px;
+}
+.image {
+  width: 312px;
+  height: 556px;
+  background: url(../img/main.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 .main {
   height: 292px;
-  /*width: 99999px;*/
+  width: 99999px;
+  display: inline-block;
+  float: left;
   margin: 0;
   background: url(../img/main.jpg);
   -webkit-background-size: cover;
@@ -43,7 +98,7 @@ body {
   color: #fff;
   text-transform: uppercase;
   padding: 120px 20px;
-}
+}*/
 .author {
   font-size: 12px;
 }
@@ -191,3 +246,42 @@ footer {
   color: #999;
 }
 /* end comment*/
+/* route */
+.route {
+  height: 526px;
+  background: #fff;
+  padding: 30px 15px 0 15px;
+  text-align: center;
+  margin-top: -556px;
+}
+.route h3 {
+  margin: 0;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-size: 1.5em;
+}
+select {
+   border-radius: 0;
+   height: 30px;
+   width: 282px;
+   margin-top: 5px;
+}
+.select-from, .select-to, .days {
+  margin-bottom: 20px;
+}
+input {
+  height: 30px;
+  margin-top: 5px;
+  width: 282px;
+}
+.choose-btn {
+  height: 35px;
+  width: 70px;
+  background: #f2f2f2;
+  border: 0;
+  border-radius: 3px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+/* end route */
