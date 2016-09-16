@@ -1,0 +1,193 @@
+/*.main {
+  float: left;
+}
+.describe-move {
+  display: inline-block;
+  float: right;
+}*/
+
+/*-----------------------*/
+body {
+  min-width: 1200px;
+  background: #cce6ff;
+}
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+/* main side */
+.wrapper {
+  width: 312px;
+  height: 556px;
+  padding: 0;
+  margin: 0 15px;
+  float: left;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 15px 5px #000;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+.main {
+  height: 292px;
+  /*width: 99999px;*/
+  margin: 0;
+  background: url(../img/main.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 120px 20px;
+}
+.author {
+  font-size: 12px;
+}
+.title h1 {
+  font-size: 3em;
+  margin: 20px 0;
+}
+.travel-btn {
+  height: 35px;
+  width: 70px;
+  background:#fff;
+  border: 0;
+  border-radius: 3px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+footer {
+  height: 40px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 5;
+  background: white;
+  line-height: 40px;
+}
+.close .circles .comment {
+  float: left;
+}
+.close {
+  width: 20%;
+  float: left;
+}
+.close-btn {
+  border: 0;
+  background: #fff;
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin-left: 7px;
+  font-size: 1.1em;
+}
+.circles {
+  width: 60%;
+  float: left;
+  position: relative;
+  top: -3px;
+}
+.circles ul {
+  margin: 0;
+  padding-left: 80px;
+}
+.dark {
+  background: #000 !important;
+}
+.circle {
+  display: inline-block;
+  height: 40px;
+  width: 5px;
+  height: 5px;
+  background: #808080;
+  border-radius: 50%;
+}
+.circle:hover {
+  cursor: pointer;
+}
+.comment-button {
+  height: auto;
+  width: 20%;
+  float: left;
+  line-height: 35px;
+}
+.comment-btn {
+  height: 30px;
+  width: 30px;
+  border: 0;
+  /*background: url(../img/comment.png) center center no-repeat;*/
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  position: relative;
+  top: 5px;
+  left: 15px;
+}
+/* end main side */
+/* describe (2 screen)*/
+.describe {
+  height: 100%;
+  width: 100%;
+  background: #f2f2f2;
+  overflow: scroll;
+}
+.describe p {
+  margin: 0 15px;
+  padding-top: 15px;
+  text-align: justify;
+  font-size: 1.2em;
+}
+.describe p::first-letter {
+  font-weight: bold;
+  font-size: 4em;
+  margin-right: 20px;
+  float: left;
+}
+/* end describe (2 screen)*/
+/* comment */
+.comments {
+  height: 100%;
+  width: 282px;
+  background: #fff;
+  padding: 20px 15px 0 15px;
+}
+.comments h2 {
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.comment-close {
+  height: 30px;
+  float: right;
+  display: inline;
+}
+.comment {
+  height: 100px;
+  margin-bottom: 15px;
+  /*border: solid 1px red;*/
+}
+.comment img {
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  object-fit: cover;
+  float: left;
+}
+.comment-text {
+  width: 180px;
+  float: right;
+  padding: 0 20px;
+}
+.comment-text h5 {
+  display: inline;
+}
+.dot, .time {
+  color: #999;
+}
+/* end comment*/
