@@ -260,8 +260,9 @@ footer {
   text-transform: uppercase;
   font-size: 1.5em;
 }
-select {
+.select-from select {
    border-radius: 0;
+   border: solid 1px #000;
    height: 30px;
    width: 282px;
    margin-top: 5px;
@@ -272,11 +273,14 @@ select {
 input {
   height: 30px;
   margin-top: 5px;
-  width: 282px;
+  border-radius: 0;
+  border: solid 1px #000;
+  width: 272px;
+  text-align: center;
 }
 .choose-btn {
-  height: 35px;
-  width: 70px;
+  height: 40px;
+  width: 150px;
   background: #f2f2f2;
   border: 0;
   border-radius: 3px;
