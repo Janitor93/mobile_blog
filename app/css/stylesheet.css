@@ -1,12 +1,4 @@
-/*.main {
-  float: left;
-}
-.describe-move {
-  display: inline-block;
-  float: right;
-}*/
 
-/*-----------------------*/
 body {
   min-width: 1200px;
   background: #cce6ff;
@@ -26,7 +18,11 @@ body {
   padding: 0;
   margin: 0 15px;
   float: left;
-  position: relative;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -156px;
+  margin-top: -278px;
   overflow: hidden;
   box-shadow: 0 0 15px 5px #000;
   font-family: 'Open Sans Condensed', sans-serif;
@@ -56,7 +52,6 @@ body {
 .main {
   height: 556px;
   width: 9999px;
-  /*display: inline-block;*/
   margin: 0;
 }
 .describe {
@@ -67,38 +62,6 @@ body {
 .describe img {
   width: 282px;
 }
-/*.describe1 {
-  color: #000;
-}
-.content {
-  display: inline-block;
-  float: left;
-  width: 312px;
-}
-.image {
-  width: 312px;
-  height: 556px;
-  background: url(../img/main.jpg);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-.main {
-  height: 292px;
-  width: 99999px;
-  display: inline-block;
-  float: left;
-  margin: 0;
-  background: url(../img/main.jpg);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  color: #fff;
-  text-transform: uppercase;
-  padding: 120px 20px;
-}*/
 .author {
   font-size: 12px;
 }
@@ -174,7 +137,6 @@ footer {
   height: 30px;
   width: 30px;
   border: 0;
-  /*background: url(../img/comment.png) center center no-repeat;*/
   -webkit-background-size: contain;
   -moz-background-size: contain;
   -o-background-size: contain;
@@ -225,7 +187,6 @@ footer {
 .comment {
   height: 100px;
   margin-bottom: 15px;
-  /*border: solid 1px red;*/
 }
 .comment img {
   height: 60px;
